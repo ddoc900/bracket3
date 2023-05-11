@@ -98,19 +98,7 @@ const findWinners = (x, y, z) => {
     }
 }
 
-// for(let i = 0; i < east1.length; i++){
 
-//     console.log(east1[i].innerHTML)
-// }
-
-for(let i = 0; i < game.length; i++){
-
-console.log(game[0])
-
-    // for(let j = 0; j < game2.length; j++){
-
-    // findWinners(game[i], game[i++], game2[i])
-}
 
 
 
