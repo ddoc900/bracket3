@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    margin: 2px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    flex-grow: 1;
+    width: 90px;
+    padding: 2px;
+}
+
+.south, .east, .west, .midwest {
+    height: 47vh;
+    width: 45%;
+    display: flex;
+    position: absolute;
+}
+
+.south {
+    top: 0px;
+    left: 1em;
+}
+
+.east {
+    bottom: 0px;
+    left: 1em;
+}
+
+.midwest {
+    right: 1em;
+    top: 0px;
+}
+
+.west {
+    right: 1em;
+    bottom: 0;
+}
+
+
+.midwest, .west {
+    direction: rtl;
+}
+
+
+.round1, .round2, .round3, .round4, .round5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.champion {
+   background-color: bisque;
+   width: 300px;
+   margin: auto;
+   margin-top: 400px;
+   width: max-content;
+   display: flex;
+   border-radius: 8%;
+}
+
+
+
+.champion .team {
+    padding: 5px;
+}
+
+.winner {
+    font-size: 20px;
+}
+
